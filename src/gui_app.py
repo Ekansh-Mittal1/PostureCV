@@ -12,8 +12,8 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtGui import QFont, QImage, QPixmap
 from PySide6.QtCore import Qt, QTimer, QThread, Signal
-from posture_monitor import PostureMonitor
-from warning_popup import WarningPopup
+from .posture_monitor import PostureMonitor
+from .warning_popup import WarningPopup
 
 
 def check_camera_permission():

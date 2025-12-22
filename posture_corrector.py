@@ -26,7 +26,7 @@ def main():
         
         # Import after print so we can see if it crashes
         print("Loading GUI...")
-        from gui_app import main as gui_main
+        from src.gui_app import main as gui_main
         
         print("Starting application window...")
         print("✓ Application window should open")

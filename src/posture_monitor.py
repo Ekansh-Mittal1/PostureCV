@@ -1,7 +1,7 @@
 """
 Core posture detection logic using MediaPipe.
 Handles camera capture, pose detection, calibration, and slouch detection.
-Runs headless (no GUI window) to avoid threading conflicts with rumps.
+Runs headless (no GUI window) to avoid threading conflicts with GUI frameworks.
 """
 import cv2
 import numpy as np
