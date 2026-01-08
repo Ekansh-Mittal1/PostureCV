@@ -293,7 +293,7 @@ class PostureCorrectorWindow(QMainWindow):
         central_widget.setLayout(layout)
         
         # Title
-        title = QLabel("Posture Corrector")
+        title = QLabel("Made with 💖 for LV")
         title_font = QFont()
         title_font.setPointSize(24)
         title_font.setBold(True)
